@@ -1,2 +1,2 @@
-@import url(style.css);
-@import url(favicon.ico);
+@import url(../vendor/normalize.css);
+@import url(../style.css);
