@@ -235,6 +235,15 @@ label[for="form__label"] {
   color: #000;
 }
 
+label[form="form__input-nombre"] {
+  font-family: inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+}
+
 .form__input {
   box-sizing: border-box;
   width: 100%;
