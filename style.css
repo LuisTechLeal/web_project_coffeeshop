@@ -218,7 +218,7 @@ background-size: cover;
 
 .reservation__title {
   text-align: center;
-  margin: 100px auto 80px;
+  margin: 0px auto 80px;
   font-family: inter;
   font-style: normal;
   font-weight: 500;
