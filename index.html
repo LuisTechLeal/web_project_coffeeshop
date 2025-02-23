@@ -14,9 +14,7 @@
     href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet" />
   <link rel="shortcut icon" href="./favicon.ico" />
-  <link rel="stylesheet" href="./vendor/normalize.css" />
   <link rel="stylesheet" href="./pages/index.css" />
-  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -98,7 +96,7 @@
         <h2 class="reservation__title">Reservar una mesa</h2>
         <form action="#" class="form reservation__form">
           <fieldset class="form__fieldset">
-            <label class="form__lable" for="name">Nombre *</label>
+            <label class="form__label" for="name">Nombre *</label>
             <input
               class="form__input"
               type="text"
@@ -107,7 +105,7 @@
               placeholder="Nombre"
               required
             />
-            <label class="form__lable" for="diners-numbers"
+            <label class="form__label" for="diners-numbers"
               >Número de comensales *</label
             >
             <input
@@ -120,7 +118,7 @@
               placeholder="1-8"
               required
             />
-            <label class="form__lable" for="dtate">Fecha y hora *</label>
+            <label class="form__label" for="dtate">Fecha y hora *</label>
             <input
               class="form__input"
               type="datetime-local"
@@ -128,7 +126,7 @@
               name="dtate"
               required
             />
-            <label class="form__lable" for="email"
+            <label class="form__label" for="email"
               >Tu correo electrónico *</label
             >
             <input
@@ -154,7 +152,7 @@
               required
             />
             <label
-              class="form__lable form__lable_direction_right"
+              class="form__label form__label_direction_right"
               for="checkbox"
               >Acepto los términos de uso *</label
             >
@@ -163,10 +161,42 @@
       </section>
     </main>
 
-    <footer class="footer">
-
+    <footer class="footer" id="footer">
+      <div class="footer__circle"></div>
+      <div class="footer__content">
+        <img
+        src="images/logo_coffeeshop_light.svg"
+        alt="logo de la cafeteria"
+        class="footer__logo"
+        >
+        <div class="footer__social">
+        <h3 class="footer__social-heading">Redes Sociales</h3>
+        <ul class="footer__list">
+        <li class="footer__list-item">
+            <img
+            src="images/facebook_white.svg"
+            alt="Logo de facebook"
+            class="footer__social-icon"
+            />
+        <a href="#" class="footer__social-link">Facebook</a>
+        </li>
+          <li class="footer__list-item">
+          <img
+          src="images/instagram_white.svg"
+          alt="logo de instagram"
+          class="footer__social-icon"
+          />
+          <a href="#" class="footer__social-link">Instagram</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <p class="footer__copyright">
+          &#x00a9; 2024 Luis Aaron
+        </p>
+      </div>
     </footer>
   </div>
 </body>
-
 </html>

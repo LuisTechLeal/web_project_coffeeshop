@@ -1,0 +1,9 @@
+@import url(../vendor/normalize.css);
+@import url(../Block/pages.css);
+@import url(../Block/header.css);
+@import url(../Block/nav.css);
+@import url(../Block/content.css);
+@import url(../Block/reservation.css);
+@import url(../Block/recipes.css);
+@import url(../Block/form.css);
+@import url(../Block/footer.css);
