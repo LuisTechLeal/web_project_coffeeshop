@@ -34,8 +34,8 @@ column-gap: 40px;
 }
 
 .recipes__iframe {
-  max-width: 480px;
-  max-height: 273px;
+  width: 450px;
+  height: 200px;
   border: 0;
 }
 
